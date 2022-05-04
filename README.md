@@ -6,4 +6,4 @@ To run train the model the for Q8 prediction the moleculeSS8.py needs to be run.
 
 To test the models, run test.py 
 The resulted prints for testing on CASP dataset is in CASPss3.out and CASPSS8.out
-For feature extraction, 
+For feature extraction, featureExtarctor.py needs to be run and the resulted prints are in
