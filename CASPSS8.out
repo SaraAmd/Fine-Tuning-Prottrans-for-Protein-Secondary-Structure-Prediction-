@@ -1,0 +1,22 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+***** Running Prediction *****
+  Num examples = 20
+  Batch size = 8
+cuda:0
+  0%|          | 0/3 [00:00<?, ?it/s] 67%|██████▋   | 2/3 [00:00<00:00, 10.04it/s]***** Running Prediction *****
+  Num examples = 20
+  Batch size = 8
+4it [00:00,  7.62it/s]                       5it [00:00,  6.70it/s]6it [00:00,  7.24it/s]/home/saraahmadi/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: C seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/saraahmadi/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: H seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/saraahmadi/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: G seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/saraahmadi/.local/lib/python3.9/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: T seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+6it [00:01,  4.66it/s]
+{'accuracy': 0.620855614973262, 'precision': 0.645041014168531, 'recall': 0.47816473189607517, 'f1': 0.5492063492063493}
+Sequence       : S L R F T A S T S T P K S G S K I A K R G K K H P E P V A S W M S E Q R W A G E P E V M C T L Q H K S I A Q E A Y K N Y T I T T S A V C K L V R Q L Q Q Q A L S L Q V H F E R S E R V L S G L Q A S S L P E A L A G A T Q L L S H L D D F T A T L E R R G V F F N D A K I E R R R Y E Q H L E Q I R T V S K D T R Y S L E R Q H Y I N L E S L L D D V Q L L K R H T L I T L R L I F E R L V R V L V I S I E Q S Q C D L L L R A N I N M V A T L M N I D Y D G F R S L S D A F V Q N E A V R T L L V V V L D H K Q S S V R A L A L R A L A T L C C A P Q A I N Q L G S C G G I E I V R D I L Q V E S A G E R G A I E R R E A V S L L A Q I T A A W H G S E H R V P G L R D C A E S L V A G L A A L L Q P E 
+Ground Truth is: C C C H H H H H H H H G G G C C C C C C C C C C C C C C H H H H H H H H C C C C S S H H H H H H H H H H H H H H H H H H H H H H H H H H H H T S S C S C S H H H H H H H H H H H H H H H H H H H H H H H T T C C C C C C C H H H H H H H H H H H H C C H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H T C C S H H H H H H H H H H H H H H T S S C C S S T T C C H H H H H H T T H H H H H H H H H H H C C C H H H H H H H H H H H H H H T T S H H H H H H H H H T T H H H H H H H H H C C C S S S C T H H H H H H H H H H H H H G G G S C C H H H H H H H T T C C
+prediction is  : C C C C C C C C C C C C C C C C C C C C C C C C C C C C C H H H H H C C C C C C C H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H T C C H H H H H H H H H H H H H H H H H H H H H H H H T T C C C H H H H H H H H H H H H H H H H H H H H H H C H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H C C H T H H H H H H H H H H H H H H H H H H C C H H H H H H H H H H H H H T H H H H H H H H H H T T C S C H H H H H H H H H H H H H H H T C H H H H H H H H H T T H H H H H H H H H H C C C C T C C C H H H H H H H H H H H H H H H H H H T T C T T C C H H H H H H H H H H H H H H H H H H C C C
