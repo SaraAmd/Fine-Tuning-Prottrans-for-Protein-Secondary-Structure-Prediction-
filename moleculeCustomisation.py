@@ -190,14 +190,6 @@ def main():
         "f1": f1_score(out_label_list, preds_list),
         }
 
-
-#      #https://colab.research.google.com/github/abhimishra91/transformers-tutorials/blob/master/transformers_ner.ipynb
-#      #https://discuss.huggingface.co/t/what-is-the-purpose-of-the-additional-dense-layer-in-classification-heads/526
-#      #very importatn https://discuss.huggingface.co/t/how-do-i-change-the-classification-head-of-a-model/4720/11
-#      #https://www.oreilly.com/library/view/natural-language-processing/9781098103231/ch04.html
-#      #https://stackoverflow.com/questions/66148641/changing-config-and-loading-hugging-face-model-fine-tuned-on-a-downstream-task
-#      #https://github.com/multicom-toolbox/DNSS2/blob/master/scripts/test_dnss.py
-        #https://huggingface.co/Rostlab/prot_bert_bfd/blame/main/README.md
         
 
     
