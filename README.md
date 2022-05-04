@@ -1,3 +1,6 @@
+The code in this https://github.com/agemagician/ProtTrans is used to fine tune the tranfer mdoel on kaggle dataset
+
+
 # Fine-Tuning-Prottrans-for-Protein-Secondary-Structure-Prediction-
 
 To run train the model the for Q3 prediction the molecule.py needs to be run. The resulted model is very big and can not be uploaded to git. But the resulte prints  are in sst3results.out
@@ -6,4 +9,4 @@ To run train the model the for Q8 prediction the moleculeSS8.py needs to be run.
 
 To test the models, run test.py 
 The resulted prints for testing on CASP dataset is in CASPss3.out and CASPSS8.out
-For feature extraction, featureExtarctor.py needs to be run and the resulted prints are in
+For feature extraction, featureExtarctor.py needs to be run and the resulted prints are in featureextractorQ3.out
